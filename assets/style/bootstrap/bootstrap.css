@@ -92,10 +92,10 @@ h4, .h4 {
       font-size: 1.5rem; } }
 
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 1rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.75rem; }
 
 p {
   margin-top: 0;
@@ -6662,10 +6662,10 @@ textarea.form-control-lg {
   font-size: calc(1.275rem + 0.3vw) !important; }
 
 .fs-5 {
-  font-size: 1.25rem !important; }
+  font-size: 1rem !important; }
 
 .fs-6 {
-  font-size: 1rem !important; }
+  font-size: 0.75rem !important; }
 
 .fst-italic {
   font-style: italic !important; }
