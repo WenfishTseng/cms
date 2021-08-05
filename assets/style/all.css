@@ -9524,6 +9524,9 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+body .container {
+  padding: 0px 32px; }
+
 .sidebar {
   width: 25%; }
   .sidebar__item-hover {
@@ -9548,6 +9551,18 @@ img {
   .sidebar__engineer__img {
     width: 40px;
     height: 40px; }
+
+.assignment__title {
+  font-size: 1.5rem;
+  line-height: 1.5; }
+
+.assignment__menu__item {
+  color: #212529; }
+  .assignment__menu__item-hover:hover {
+    color: #198754; }
+
+.dropdown-toggle::after {
+  display: none; }
 
 main {
   width: 75%;
