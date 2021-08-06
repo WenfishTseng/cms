@@ -9550,9 +9550,7 @@ body .container {
     font-size: 0.875rem; }
   .sidebar__engineer__img {
     width: 40px;
-    height: 40px;
-    -o-object-fit: cover;
-       object-fit: cover; }
+    height: 40px; }
 
 .assignment__title {
   font-size: 1.5rem;
@@ -9572,9 +9570,10 @@ body .container {
 .dropdown-toggle::after {
   display: none; }
 
-main {
-  width: 75%;
-  height: 900px;
-  border: 1px solid slategrey; }
+.context__img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 /*# sourceMappingURL=all.css.map */
