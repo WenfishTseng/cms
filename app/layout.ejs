@@ -1,26 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%- title %></title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
-  <link rel="stylesheet" href="./assets/style/all.css">
-</head>
+  <body>
+    <div class="d-flex">
+      <nav class="sidebar bg-light position-relative">
+        <div class="py-l">
+          <a class="sidebar__logo" href="#"> ANSWER </a>
+        </div>
 
-<body>
-  <header class="header">
-    這是 header
-  </header>
+        <ul class="d-flex flex-column mb-auto list-unstyled">
+          <li>
+            <a
+              class="
+                d-flex
+                sidebar__item sidebar__item-hover
+                link-secondary
+                text-decoration-none
+                fw-bold
+                ps-l
+                py-s
+              "
+              href="#"
+            >
+              <span class="material-icons me-3"> assessment </span>
+              Dashboard</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                d-flex
+                sidebar__item sidebar__item-hover
+                link-secondary
+                text-decoration-none
+                fw-bold
+                ps-l
+                py-s
+              "
+              href="#"
+              ><span class="material-icons me-3"> question_answer </span
+              >Question</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                d-flex
+                sidebar__item sidebar__item-hover
+                link-secondary
+                text-decoration-none
+                fw-bold
+                ps-l
+                py-s
+                active
+              "
+              href="#"
+              ><span class="material-icons me-3"> assignment </span
+              >Assignment</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                d-flex
+                sidebar__item sidebar__item-hover
+                link-secondary
+                text-decoration-none
+                fw-bold
+                ps-l
+                py-s
+              "
+              href="#"
+              ><span class="material-icons me-3"> video_library </span>Course</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                d-flex
+                sidebar__item sidebar__item-hover
+                link-secondary
+                text-decoration-none
+                fw-bold
+                ps-l
+                py-s
+              "
+              href="#"
+              ><span class="material-icons me-3"> supervisor_account </span
+              >Admin</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                d-flex
+                sidebar__item sidebar__item-hover
+                link-secondary
+                text-decoration-none
+                fw-bold
+                ps-l
+                py-s
+              "
+              href="#"
+              ><span class="material-icons me-3"> settings </span>Settings</a
+            >
+          </li>
+        </ul>
 
-  <%- contents %>
+        <div
+          class="sidebar__engineer d-flex py-l ps-l position-absolute bottom-0"
+        >
+          <div class="flex-shrink-0">
+            <img
+              class="sidebar__engineer__img rounded-circle me-3"
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"
+              alt="photo"
+            />
+          </div>
 
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
-</body>
+          <div class="sidebar__engineer__info flex-grow-1">
+            <div class="sidebar__engineer__person">Andy Chen</div>
+            <a
+              class="sidebar__engineer__mail link-info text-decoration-none"
+              href="mailto:andy0401@mail.com"
+              >andy0401@mail.com</a
+            >
+          </div>
+        </div>
+      </nav>
 
+      <%- contents %>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
 </html>

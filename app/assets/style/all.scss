@@ -1,23 +1,8 @@
-$color: #00cc99;
+@import "bootstrap/bootstrap";
+@import "helpers/mixin";
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import "base/base";
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import "layout/layout";
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+@import "page/index";

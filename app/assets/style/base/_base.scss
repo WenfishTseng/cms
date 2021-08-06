@@ -1,0 +1,23 @@
+/* rwd img css，可當作是 CSS Reset 其中一個 */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+/* 全域 border box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  .container {
+    padding: 0px 32px;
+  }
+  .link-secondary {
+    &:hover {
+      color: $primary;
+    }
+  }
+}

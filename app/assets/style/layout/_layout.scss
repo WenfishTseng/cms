@@ -1,0 +1,36 @@
+.sidebar {
+  width: 25%;
+  &__item {
+    &-hover {
+      border-left: 4px solid transparent;
+      &:hover {
+        color: $primary;
+        border-left: 4px solid $primary;
+      }
+    }
+  }
+
+  &__logo {
+    display: block;
+    @include hide-text;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+  }
+  &__engineer {
+    &__person {
+      font-size: $font-size-base;
+    }
+    &__mail {
+      font-size: $font-size-sm;
+    }
+  }
+  &__engineer {
+    &__img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

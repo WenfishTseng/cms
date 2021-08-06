@@ -1,0 +1,10 @@
+@mixin hide-text {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin link-hover {
+  transition: all 0.5s;
+  color: darken($color: #e7e7e796, $amount: 0);
+}

@@ -1,0 +1,31 @@
+.assignment {
+  &__title {
+    font-size: $font-size-xl;
+    line-height: $line-height-base;
+  }
+
+  &__chapter {
+    &__item {
+      &-active {
+        background-color: $light;
+      }
+      &:hover {
+        background-color: $light;
+      }
+    }
+  }
+}
+
+.dropdown-toggle {
+  &::after {
+    display: none;
+  }
+}
+
+.context {
+  &__img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+}
