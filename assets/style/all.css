@@ -9527,6 +9527,9 @@ img {
 body .container {
   padding: 0px 32px; }
 
+body .link-secondary:hover {
+  color: #198754; }
+
 .sidebar {
   width: 25%; }
   .sidebar__item-hover {
@@ -9555,11 +9558,6 @@ body .container {
 .assignment__title {
   font-size: 1.5rem;
   line-height: 1.5; }
-
-.assignment__menu__item {
-  color: #212529; }
-  .assignment__menu__item-hover:hover {
-    color: #198754; }
 
 .assignment__chapter__item-active {
   background-color: #f8f9fa; }
